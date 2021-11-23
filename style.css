@@ -35,14 +35,12 @@ main{
 
 #container{
     border-radius:10px;    
-    padding: 5px 0px;  
     background-color: #fff;
 }
 
 /* btn  */
 
 .btn--position{
-    width: 95%;
     margin-left: 5%;
     padding: 10px 0px;
 }
@@ -72,7 +70,6 @@ hr{
 
 
 .task{
-    width: 95%;
     margin-left: 5%;
     margin-top: 35px;
     margin-bottom: 10px;
