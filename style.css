@@ -23,6 +23,7 @@ header{
 
 #header__text{
     font-size:40px;
+    font-weight: 500;
 }
 
 /* main  */
@@ -73,7 +74,7 @@ hr{
 .task{
     width: 95%;
     margin-left: 5%;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 10px;
     
 }
@@ -86,7 +87,6 @@ hr{
     width: 20px;
     height: 20px;
     text-align: center;
-    line-height: 20px;
     display: inline-block;
     border-radius: 50%;   
     margin-right: 8px;
