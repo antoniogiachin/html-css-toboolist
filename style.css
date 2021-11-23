@@ -1,9 +1,10 @@
-* {
+*{
     box-sizing: border-box;
-    margin:0;
+    margin: 0;
     padding: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;    
 }
+
 
 body{
     background-color: #f6f8f9;
@@ -11,104 +12,94 @@ body{
 
 /* header  */
 header{
+    height: 80px;
     background-color: #fff;
-    height: 70px;
-    padding:10px;
+    padding: 15px;
 }
 
-#header__logo, #header__text{
+header #header__title {
+    display: inline-block;
     vertical-align: middle;
-    margin-left: 10px;
+    font-size: 40px;
+    font-weight: 800;
 }
 
-#header__text{
-    font-size:40px;
-    font-weight: 500;
+header #header__logo {
+    vertical-align: middle;
 }
 
 /* main  */
-main{
-    width: 70%;
-    margin:auto;
-    margin-top: 50px;
-}
 
 #container{
-    border-radius:10px;    
-    background-color: #fff;
-    padding: 0px 0px 40px 0px;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 4px;
 }
 
-/* btn  */
-
-.btn--position{
-    margin-left: 5%;
-    padding: 10px 0px;
+/* buttons */
+#btn__container, .task{
+    padding: 10px 40px;
 }
 
 .btn{
-    height: 30px;
-    border: 1px solid #f6f8f9;
+    font-size: 0.7em;
+    padding: 8px 16px;
     border-radius: 5px;
-    padding: 10px;
-}
-
-.btn.btn--task{
-    background-color:#46adf1 ;
-    color: white;
-}
-
-.btn.btn--section{
-    background-color: white;
-    color: #cccccc;
-}
-/* fine btn  */
-
-hr{
-    border:1px solid #f6f8f9;
-}
-/* task  */
-
-
-.task{
-    margin-left: 5%;
-    margin-top: 35px;
-    margin-bottom: 10px;
+    border: 1px solid #ccc;
     
 }
 
-.task .task__info{
-    margin-top: 10px;
+.btn.btn__task{
+    background-color: #46ACF0;
+    color: #fff;
 }
 
-.task .task__arrow, .task .task__info .task__check, .task .task__info .task__uncheck{
-    width: 20px;
-    height: 20px;
+.btn.btn__section{
+    background-color: #fff;
+    color: #ccc;
+}
+
+hr{
+    border:1px solid #f6f8f9
+}
+
+/* task  */
+.task__arrow, .task__done, .task__undone{
+    margin-right: 10px;
+}
+
+.task .task__desc{
+    margin-top: 20px;
+}
+
+.task .task__done, .task .task__undone{
+    
+    border-radius: 50%;
     text-align: center;
     display: inline-block;
-    border-radius: 50%;   
-    margin-right: 8px;
-    font-size: 0.8em;      
+    height: 20px;
+    width: 20px;
 }
 
-.task .task__info .task__check{
+.task .task__done{
     border: 1px solid green;
-    color: green; 
+    color: green;
 }
 
-.task .task__info .task__uncheck{   
-    border: 1px solid red;
-    font-size: 0.8em;    
-    color: red;     
+.task .task__undone{
+    border:1px solid red;
+    color: red;;
 }
 
 .task .task__cathegory {
-    display: inline-block;
-    border: 1px solid #cccccc;
-    border-radius: 10px;
-    padding: 5px;
-    font-size: 0.7em;
-    color: white;
+    display:inline-block;
+    border:1px solid #e7e7e7;
+    padding: 5px 12px;
+    font-size: 0.6em;
+    border-radius: 10px;    
 }
 
 /* cathegories colors  */
@@ -136,5 +127,3 @@ hr{
     background-color: #B1C926;
 
 }
-
-
