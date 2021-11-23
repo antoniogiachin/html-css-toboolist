@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin:0;
     padding: 0;
@@ -26,11 +26,12 @@ header{
 
 /* main  */
 main{
-    width: 60%;
+    width: 70%;
     margin:auto;
     margin-top: 50px;
 }
 
+/* btn  */
 #btn--container{
     border-top-left-radius:10px;
     border-top-right-radius:10px;
@@ -62,7 +63,81 @@ main{
     color: #cccccc;
 }
 
+/* task  */
+#task--container{
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    border: 1px solid black;
+    background-color: #fff;
+}
 
+.task{
+    width: 95%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
 
+.task .task__info{
+    margin-top: 10px;
+}
+
+.task .task__arrow, .task .task__info .task__check, .task .task__info .task__uncheck{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    display: inline-block;
+    border-radius: 50%;   
+    margin-right: 8px;
+    font-size: 0.8em;      
+}
+
+.task .task__info .task__check{
+    border: 1px solid green;
+    color: green; 
+}
+
+.task .task__info .task__uncheck{   
+    border: 1px solid red;
+    font-size: 0.8em;    
+    color: red;     
+}
+
+.task .task__cathegory {
+    display: inline-block;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 0.7em;
+    color: white;
+}
+
+/* cathegories colors  */
+.task .task__cathegory.task__editorial{
+    background-color:#46adf1;
+}
+
+.task .task__cathegory.task__goals{
+    background-color: #9B71E3 ;
+}
+
+.task .task__cathegory.task__recruiting{
+    background-color: #63BFA8;
+}
+
+.task .task__cathegory.task__mobile{
+    background-color:#F29F33;
+}
+
+.task .task__cathegory.task__website{
+    background-color: #D964A2;
+}
+
+.task .task__cathegory.task__sales{
+    background-color: #B1C926;
+
+}
 
 
